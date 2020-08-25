@@ -12,6 +12,9 @@
     "ued"
   ],
   "author": "jcsnpm",
+  "repository": {
+    "url": "https://github.com/ChuangshiJiang/lints.git"
+  },
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">= 7"
