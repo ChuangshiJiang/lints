@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-cbued",
+  "version": "0.0.1",
+  "description": "eslint config of Focus CB ued v0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "crov",
+    "ued"
+  ],
+  "author": "jcsnpm",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
