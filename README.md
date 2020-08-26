@@ -1,5 +1,5 @@
 # lints
-## Focus CB ued eslint config base on eslint:recommend
+## Focus CB ued eslint config base on eslint:recommended
 ## Usage
  - npm install eslint eslint-config-cbued --save-dev
  - 在项目根目录下新建或者编辑 .eslintrc.js 

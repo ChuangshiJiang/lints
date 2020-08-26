@@ -50,13 +50,14 @@ module.exports = {
     "max-len": [
       "warn",
       {
-        "code": 80 //强制行的最大长度
+        "code": 100 //强制行的最大长度
       }
     ],
-    "max-lines-per-function": [
+    "max-statements":[
       "error",
+      30,//函数最大语句数30
       {
-        "max": 30 //强制函数最大行数
+        "ignoreTopLevelFunctions":true//忽略顶级函数
       }
     ],
     "max-lines": [
