@@ -22,24 +22,20 @@ module.exports = {
       "warn",
       "single"
     ],
-    "quote-props": ["warn", "always"],
-    "no-unused-vars": "warn",
-    "comma-dangle": [
-      "warn",
-      "always-multiline"
-    ], //要求或禁止末尾逗号,当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，要求使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
-    "space-before-function-paren": [
-      "error",
-      "always"
-    ], //强制在 function的左括号之前使用一致的空格
-    "indent": [
-      "error",
-      2
-    ], //强制使用两空格缩进
     "jsx-quotes": [
-      "error",
+      "warn",
       "prefer-double"
     ], //强制在 JSX 属性中一致地使用双引号
+    "no-unused-vars": "warn",//禁止出现未使用过的变量
+    "space-before-function-paren": [
+      "warn",
+      "never"
+    ], //禁止在 function的左括号之前使用空格
+    "space-before-blocks": ["warn","always"],//强制在块之前使用一致的空格
+    "indent": [
+      "warn",
+      2
+    ], //强制使用两空格缩进
     "key-spacing": [
       "warn",
       {
@@ -50,18 +46,18 @@ module.exports = {
     "max-len": [
       "warn",
       {
-        "code": 100 //强制行的最大长度
+        "code": 120 //强制行的最大长度
       }
     ],
     "max-statements":[
-      "error",
+      "warn",
       30,//函数最大语句数30
       {
         "ignoreTopLevelFunctions":true//忽略顶级函数
       }
     ],
     "max-lines": [
-      "error",
+      "warn",
       {
         "max": 300 //强制文件最大行数
       }
